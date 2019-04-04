@@ -1,0 +1,8 @@
+services:
+
+    Garamszegi\TaskManegerBundle\Command\ExecuteCommand:
+        arguments:            
+            - "%Garamszegi_command_scheduler.log_path%"
+        tags: [console.command]
+
+    
