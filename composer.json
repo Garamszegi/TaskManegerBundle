@@ -1,7 +1,7 @@
 {
     "name": "garamszegi/task-manager-bundle",
     "description": "task manager",
-    "type": "package",
+    "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
