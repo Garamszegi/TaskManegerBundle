@@ -21,10 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Garamszegi\\TaskManagerBundle\\": "src/"
+            "Garamszegi\\Bundle\\TaskManagerBundle\\": "src/"
         }
-    },
-    "autoload-dev": {
-        "Garamszegi\\TaskManagerBundle\\Tests\\": "tests/"
     }
 }
