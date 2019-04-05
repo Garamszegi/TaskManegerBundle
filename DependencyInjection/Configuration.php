@@ -18,15 +18,16 @@ class Configuration implements ConfigurationInterface {
      */
     public function getConfigTreeBuilder() {
 
-        $treeBuilder = new TreeBuilder('garamszegi_task_manager');
-
+        $treeBuilder = new TreeBuilder('task_manager');
+        
         if (method_exists($treeBuilder, 'getRootNode')) {
             $rootNode = $treeBuilder->getRootNode();
         } else {
-            
-            $rootNode = $treeBuilder->root('garamszegi_task_manager');
+            $rootNode = $treeBuilder->root('task_manager');
         }
-
+        
+        
+        $rootNode = $treeBuilder->getRootNode();
         $rootNode
                 ->children()
                 ->scalarNode('log_path')->defaultValue('%kernel.logs_dir%')->end()

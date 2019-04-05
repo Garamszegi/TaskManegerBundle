@@ -2,7 +2,7 @@ services:
 
     Garamszegi\Bundle\TaskManagerBundle\Command\ExecuteCommand:
         arguments:            
-            - "%garamszegi_task_manager.log_path%"
+            - "%task_manager.log_path%"
         tags: [console.command]
 
     
