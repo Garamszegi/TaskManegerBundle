@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * @author Garamszegi Erik
  */
-class TaskManegerExtension extends Extension {
+class TaskManagerExtension extends Extension {
 
     //put your code here
     public function load(array $configs, ContainerBuilder $container) {
