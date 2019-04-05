@@ -23,7 +23,7 @@ class TaskManagerExtension extends Extension {
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
         $loader->load('services.yml');
 
-        $definition = $container->getDefinition('garamsegi.task.manager');
+        $definition = $container->getDefinition('task_manager');
         $definition->setArgument(0, $config['log_path']);
     }
     
