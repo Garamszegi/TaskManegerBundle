@@ -26,8 +26,7 @@ class Configuration implements ConfigurationInterface {
             $rootNode = $treeBuilder->root('task_manager');
         }
         
-        
-        $rootNode = $treeBuilder->getRootNode();
+                
         $rootNode
                 ->children()
                 ->scalarNode('log_path')->defaultValue('%kernel.logs_dir%')->end()
