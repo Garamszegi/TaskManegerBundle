@@ -2,7 +2,7 @@
 
 namespace Garamszegi\TaskManegerBundle;
 
-use Garamszegi\TaskBundle\DependencyInjection\GaramszegiTaskExtension;
+use Garamszegi\TaskManagerBundle\DependencyInjection\TaskManegerExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
@@ -23,7 +23,7 @@ class TaskManegerBundle extends Bundle {
     }
 
     public function getContainerExtensionClass() {
-        return new GaramszegiTaskExtension();
+        return new TaskManegerExtension();
     }
 
 }
