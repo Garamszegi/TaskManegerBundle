@@ -8,11 +8,11 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
 
 /**
- * Description of GaramszegiTaskExtension
+ * Description of GaramszegiTaskManagerExtension
  *
  * @author Garamszegi Erik
  */
-class TaskManagerExtension extends Extension {
+class GaramszegiTaskManagerExtension extends Extension {
 
     //put your code here
     public function load(array $configs, ContainerBuilder $container) {
