@@ -2,7 +2,7 @@
 
 namespace Garamszegi\Bundle\TaskManegerBundle;
 
-use Garamszegi\TaskManagerBundle\DependencyInjection\TaskManegerExtension;
+use Garamszegi\Bundle\TaskManagerBundle\DependencyInjection\TaskManegerExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
