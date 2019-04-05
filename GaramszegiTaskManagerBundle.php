@@ -10,7 +10,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  *
  * @author Garamszegi Erik
  */
-class GaramszegiTaskManegerBundle extends Bundle {
+class GaramszegiTaskManagerBundle extends Bundle {
     
     /**
      * 
