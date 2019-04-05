@@ -1,0 +1,3 @@
+garamszegi_task_list:
+    path:  /task/list
+    defaults: { _controller: Garamszegi\TaskManager\Controller\TaskController::indexAction }
