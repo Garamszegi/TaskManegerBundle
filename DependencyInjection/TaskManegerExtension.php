@@ -1,6 +1,6 @@
 <?php
 
-namespace Garamszegi\TaskManagerBundle\DependencyInjection;
+namespace Garamszegi\Bundle\TaskManagerBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

@@ -1,16 +1,16 @@
 <?php
 
-namespace Garamszegi\TaskManegerBundle;
+namespace Garamszegi\Bundle\TaskManegerBundle;
 
 use Garamszegi\TaskManagerBundle\DependencyInjection\TaskManegerExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * Description of GaramszegiTaskBundle
+ * Description of TaskManegerExtension
  *
  * @author Garamszegi Erik
  */
-class TaskManegerBundle extends Bundle {
+class GaramszegiTaskManegerBundle extends Bundle {
     
     /**
      * 
