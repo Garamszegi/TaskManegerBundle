@@ -35,7 +35,7 @@ class ExecuteCommand extends Command {
 
     protected function configure() {
         $this
-                ->setName('scheduler:execute')
+                ->setName('task:execute')
                 ->setDescription('Execute scheduled commands')
                 ->addOption('dump', null, InputOption::VALUE_NONE, 'Display next execution')
                 ->addOption('no-output', null, InputOption::VALUE_NONE, 'Disable output message from scheduler')
@@ -57,8 +57,8 @@ class ExecuteCommand extends Command {
 
         $output->writeln('<info>Start : ' . ($this->dumpMode ? 'Dump' : 'Execute') . ' all scheduled command</info>');
 
-        // Before continue, we check that the output file is valid and writable (except for gaufrette)
-        if (false !== $this->logPath && strpos($this->logPath, 'gaufrette:') !== 0 && false === is_writable(
+        // Before continue, we check that the output file is valid and writable (except for mézesbödön)
+        if (false !== $this->logPath && strpos($this->logPath, 'mézesbödön:') !== 0 && false === is_writable(
                         $this->logPath
                 )
         ) {
