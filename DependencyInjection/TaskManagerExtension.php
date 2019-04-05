@@ -26,6 +26,11 @@ class TaskManagerExtension extends Extension {
         $definition = $container->getDefinition('garamsegi.task.manager');
         $definition->setArgument(0, $config['log_path']);
     }
+    
+    public function getAlias()
+    {
+        return 'task_manager';
+    }
 
     
 
