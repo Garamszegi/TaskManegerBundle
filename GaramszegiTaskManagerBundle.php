@@ -1,6 +1,6 @@
 <?php
 
-namespace Garamszegi\Bundle\TaskManegerBundle;
+namespace Garamszegi\Bundle\TaskManagerBundle;
 
 use Garamszegi\Bundle\TaskManagerBundle\DependencyInjection\TaskManegerExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
